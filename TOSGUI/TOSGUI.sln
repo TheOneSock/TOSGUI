@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOSGUI.Examples", "TOSGUI.Examples\TOSGUI.Examples.csproj", "{607FF1E9-85F5-4776-8637-3BDB9F1A5782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOSGUI.Tests", "TOSGUI.Tests\TOSGUI.Tests.csproj", "{1BF30AC3-3ED7-4D6D-AA4D-DD86A9137388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOSGUI", "TOSGUI\TOSGUI.csproj", "{DD81E9F6-36B9-46B8-903F-83BC444700CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{607FF1E9-85F5-4776-8637-3BDB9F1A5782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607FF1E9-85F5-4776-8637-3BDB9F1A5782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607FF1E9-85F5-4776-8637-3BDB9F1A5782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607FF1E9-85F5-4776-8637-3BDB9F1A5782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF30AC3-3ED7-4D6D-AA4D-DD86A9137388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF30AC3-3ED7-4D6D-AA4D-DD86A9137388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF30AC3-3ED7-4D6D-AA4D-DD86A9137388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF30AC3-3ED7-4D6D-AA4D-DD86A9137388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD81E9F6-36B9-46B8-903F-83BC444700CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD81E9F6-36B9-46B8-903F-83BC444700CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD81E9F6-36B9-46B8-903F-83BC444700CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD81E9F6-36B9-46B8-903F-83BC444700CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
