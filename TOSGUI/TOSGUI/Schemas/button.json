@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Button",
+    "description": "A pushable button",
+    "allOf": [{ "$ref": "component.json#" }],
+    "additionalProperties": false,
+    "properties": {
+        "Caption":{
+            "type": "string"
+        }
+    }
+}

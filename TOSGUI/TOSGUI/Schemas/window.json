@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Window",
+    "description": "Window with frame and title",
+    "additionalProperties": false,
+    "allOf": [{ "$ref": "vertical_layout.json#" }]
+}

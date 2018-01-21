@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Component",
+    "description": "Base class of all drawable components",
+    "additionalProperties": false,
+    "properties": {
+        "WidthPx": {
+            "type":"integer",
+            "description": "Width in pixels",
+            "minimum": 0
+        },
+        "Width": {
+            "type":"number",
+            "description": "Width in procents 1 = 100%. This is from according to the space which the parrent would allocate",
+            "minimum": 0,
+            "maximum": 1
+        },
+        "HeightPx": {
+            "type":"integer",
+            "description": "Height in pixels",
+            "minimum": 0
+        },
+        "Height": {
+            "type":"number",
+            "description": "Height in procents 1 = 100%. This is from according to the space which the parrent would allocate",
+            "minimum": 0,
+            "maximum": 1
+        }
+    }
+    
+}

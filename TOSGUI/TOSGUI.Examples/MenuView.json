@@ -1,0 +1,7 @@
+﻿{
+  "$schema": "../TOSGUI/Schemas/window.json#",
+  
+  "Components": [
+      {}
+  ]
+}

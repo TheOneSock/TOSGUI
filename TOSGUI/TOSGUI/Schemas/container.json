@@ -1,0 +1,25 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Container",
+    "description": "Contains other components",
+    "additionalProperties": false,
+    "allOf": [
+        {
+            "$ref": "component.json#"
+        },
+        {
+            "properties": {
+                "Components": {
+                    "type": "array",
+                    "items": {
+                        "anyOf": [
+                            {
+                                "$ref": "button.json#"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

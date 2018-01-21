@@ -1,0 +1,8 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "TOSGUI",
+    "description": "Root node for the gui",
+    "additionalProperties": false,
+    "properties": {
+    }    
+}

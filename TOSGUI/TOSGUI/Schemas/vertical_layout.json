@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "VerticalLayout",
+    "description": "Contains other components",
+    "additionalProperties": false,
+    "allOf": [{ "$ref": "container.json#" }]
+}
